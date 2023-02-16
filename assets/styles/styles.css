@@ -181,3 +181,10 @@ section {
   font-size: 6.4rem;
   font-weight: 700;
 }
+
+/* testimonial */
+.testimonial__text {
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: italic;
+}
