@@ -70,3 +70,32 @@ section {
   white-space: nowrap;
   width: 1px;
 }
+
+/* general styles */
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-block: 2.8rem;
+}
+
+.navbar__navigation {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.navbar__link {
+  font-size: 1.8rem;
+  color: var(--independence);
+}
+
+/* logo */
+.logo {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--eerie-black);
+}
