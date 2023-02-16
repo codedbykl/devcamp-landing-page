@@ -204,3 +204,9 @@ section {
 .cta__content * {
   color: var(--bright-gray);
 }
+
+/* footer */
+.footer {
+  padding-block: 2.4rem;
+  text-align: center;
+}
