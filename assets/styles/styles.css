@@ -73,6 +73,26 @@ section {
 
 /* general styles */
 
+/* buttons */
+[class*='--primary'] {
+  background-color: var(--eerie-black);
+  color: var(--bright-gray) !important;
+}
+
+.button {
+  padding-top: 0.9rem;
+  padding-bottom: 0.8rem;
+  padding-inline: 2.4rem;
+  border-radius: 0.8rem;
+
+  font-weight: 600;
+}
+
+.button--outline {
+  color: var(--bright-gray);
+  box-shadow: inset 0 0 0 0.2rem var(--bright-gray);
+}
+
 /* navbar */
 .navbar {
   display: flex;
