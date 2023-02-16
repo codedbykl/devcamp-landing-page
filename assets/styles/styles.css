@@ -1,0 +1,72 @@
+:root {
+  --bright-gray: hsl(220, 13%, 91%);
+  --eerie-black: hsl(238, 33%, 15%);
+  --independence: hsl(236, 9%, 36%);
+  --flavescent: hsl(45, 90%, 76%);
+  --sea-serpent: hsl(178, 48%, 57%);
+  --laurel-green: hsl(94, 38%, 69%);
+  --tulip: hsl(2, 86%, 75%);
+
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: var(--eerie-black);
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+body {
+  position: relative;
+
+  font-family: 'Hind', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+
+  color: var(--independence);
+}
+
+section {
+  padding-block: 8rem;
+}
+
+/* utilities */
+.container {
+  width: min(90%, 100rem);
+  margin-inline: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
