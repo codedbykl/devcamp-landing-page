@@ -188,3 +188,19 @@ section {
   font-weight: 300;
   font-style: italic;
 }
+
+/* cta */
+.cta__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2.8rem 6.4rem;
+  border-radius: 0.8rem;
+
+  background-color: var(--eerie-black);
+}
+
+.cta__content * {
+  color: var(--bright-gray);
+}
