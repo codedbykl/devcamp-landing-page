@@ -180,19 +180,19 @@ section {
 }
 
 .features__card:nth-child(1) {
-  background-color: #f9de8b;
+  background-color: var(--flavescent);
 }
 
 .features__card:nth-child(2) {
-  background-color: #5ec7c4;
+  background-color: var(--sea-serpent);
 }
 
 .features__card:nth-child(3) {
-  background-color: #adce93;
+  background-color: var(--laurel-green);
 }
 
 .features__card:nth-child(4) {
-  background-color: #f68f8b;
+  background-color: var(--tulip);
 }
 
 .features__card::before {
